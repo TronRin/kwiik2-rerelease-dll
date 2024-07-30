@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 2\\rerelease\\greywell\\src\\rerelease\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C994B5EA-3058-403C-953D-3673C2C4D64E}|game.vcxproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 2\\rerelease\\greywell\\src\\rerelease\\g_weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C994B5EA-3058-403C-953D-3673C2C4D64E}|game.vcxproj|solutionrelative:g_weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "g_weapon.cpp",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 2\\rerelease\\greywell\\src\\rerelease\\g_weapon.cpp",
+              "RelativeDocumentMoniker": "g_weapon.cpp",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 2\\rerelease\\greywell\\src\\rerelease\\g_weapon.cpp",
+              "RelativeToolTip": "g_weapon.cpp",
+              "ViewState": "AQIAAHIBAAAAAAAAAAAwwIIBAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-30T00:22:47.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
