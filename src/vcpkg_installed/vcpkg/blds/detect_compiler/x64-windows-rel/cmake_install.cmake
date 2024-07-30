@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/rerelease/vcpkg_installed/vcpkg/pkgs/detect_compiler_x64-windows")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/vcpkg_installed/vcpkg/pkgs/detect_compiler_x64-windows")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -47,6 +47,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/rerelease/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

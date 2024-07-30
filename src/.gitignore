@@ -1,0 +1,17 @@
+.vscode
+build
+*.dylib
+*.so
+*.dll
+_deps
+.vs
+**/vcpkg_installed/
+.clang-format
+.clang-tidy
+bug_report.md
+feature_request.md
+*.log
+*.tlog
+*.recipe
+game
+*.cmake

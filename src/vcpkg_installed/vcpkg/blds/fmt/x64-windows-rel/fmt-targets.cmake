@@ -50,9 +50,9 @@ unset(_cmake_expected_targets)
 add_library(fmt::fmt SHARED IMPORTED)
 
 set_target_properties(fmt::fmt PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "FMT_LOCALE;FMT_SHARED"
-  INTERFACE_COMPILE_FEATURES "cxx_variadic_templates"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/rerelease/vcpkg_installed/vcpkg/blds/fmt/src/2b3b374f0b-8ea71ee8ea.clean/include"
+  INTERFACE_COMPILE_DEFINITIONS "FMT_SHARED"
+  INTERFACE_COMPILE_FEATURES "cxx_std_11"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/vcpkg_installed/vcpkg/blds/fmt/src/10.2.1-a991065f88.clean/include"
 )
 
 # Create imported target fmt::fmt-header-only
@@ -60,15 +60,15 @@ add_library(fmt::fmt-header-only INTERFACE IMPORTED)
 
 set_target_properties(fmt::fmt-header-only PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FMT_HEADER_ONLY=1"
-  INTERFACE_COMPILE_FEATURES "cxx_variadic_templates"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/rerelease/vcpkg_installed/vcpkg/blds/fmt/src/2b3b374f0b-8ea71ee8ea.clean/include"
+  INTERFACE_COMPILE_FEATURES "cxx_std_11"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/vcpkg_installed/vcpkg/blds/fmt/src/10.2.1-a991065f88.clean/include"
 )
 
 # Import target "fmt::fmt" for configuration "Release"
 set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(fmt::fmt PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/rerelease/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/fmt.lib"
-  IMPORTED_LOCATION_RELEASE "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/rerelease/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/bin/fmt.dll"
+  IMPORTED_IMPLIB_RELEASE "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/fmt.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Program Files (x86)/Steam/steamapps/common/Quake 2/rerelease/greywell/src/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/bin/fmt.dll"
   )
 
 # This file does not depend on other imported targets which have
